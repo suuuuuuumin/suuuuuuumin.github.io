@@ -19,6 +19,6 @@ body, p { margin: 0; }
     left: 50%;
     transform: translate(-50%, -50%);   /* 폰트 기준점 정하는 태그 */
     font-family: 'Oswald', sans-serif;  /* 폰트 */
-    font-size: 3vw; /* 폰트 크기- vw때문에상태크기로 변화  */
+    font-size: 5vw; /* 폰트 크기- vw때문에상태크기로 변화  */
     color: rgba(255, 255, 255, 0.0);  /* 텍스트 색상 */
 }
