@@ -2,7 +2,7 @@
 
 body, p { margin: 0; }
 #box1 {
-    position: relative;
+    position: relative;  
     width: 100vw;
     height: 56.25vw;
     left: 0;

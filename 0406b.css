@@ -3,23 +3,23 @@
 body, p { margin: 0; }
 #box1 {
     position: relative;
-    width: 100vw;
-    height: 56.25vw;
+    width: 100vw; /* vw 뷰포트 꽉 채우기 위해 50=반만 줄여져서 보임 */
+    height: 56.25vw; /* 영상 /16:9비율=100:X 계산해야함 -> 16*X=900 */
     left: 0;
     top: 0;
     background-color: #000000;
 }
 #box1 > video {
-    width: 100%;
-    height: 100%;
+    width: 100%;  /* 박스1 요소안의 비디오 크기 */
+    height: 100%; 
 }
-#box1 > p {
-    position: absolute;
+#box1 > p { 
+    position: absolute; /* absolute=겹치는부분태그 */
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Oswald', sans-serif;
+    transform: translate(-50%, -50%);   /* 기준점 정하는 태그 */
+    font-family: 'Oswald', sans-serif;  /* 폰트 */
     font-size: 5vw;
-    color: rgba(255, 255, 255, 0.0);
-    -webkit-text-stroke: 1px #ffffff;
+    color: rgba(255, 255, 255, 0.0);  /* 텍스트 색상 */
+    -webkit-text-stroke: 1px #ffffff; /* 텍스트 외곽선 */
 }
