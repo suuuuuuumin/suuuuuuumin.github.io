@@ -1,0 +1,166 @@
+title,backdrop {
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 35%;
+    height: 25%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: rgba(250, 235, 215, 0);
+    background-image: url("title02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+     z-index: 1000; /* 특정 요소(레이어)를 다른 요소의 위에 배치할 때 z-index 값이 크면 됨 */
+}
+
+@media (max-width: 840px) {
+    }
+
+
+#image01 {
+    position: fixed; /* 브라우저가 크기 변해도 변동x*/
+    left: -12.8px;
+    width: 12.5%;
+    height: 100%;
+    background-image: url("main1.png");
+    background-size: cover;
+    background-position-y: center;
+    animation-name: imge1; /* 키프레임 애니메이션 이름 */
+    animation-duration: 2s; /* 애니메이션의 전체 길이, 시간 */
+    animation-iteration-count: infinite; /* 반복 횟수, 무한 반복인 경우 infinite */
+}
+
+
+@keyframes imge1 {
+    0%{
+        top: -10px;
+    }
+    50%{
+        top: 10px;
+    }
+    100%{
+        top: -10px;
+    }
+}
+
+#image02 {
+    position: fixed; /* 브라우저가 크기 변해도 변동x*/
+    left: 190px;
+    width: 12.5%;
+    height: 100%;
+    background-image: url("main2.png");
+    background-size: cover;
+    background-position-y: center;
+    animation-name: imge2; /* 키프레임 애니메이션 이름 */
+    animation-duration: 2s; /* 애니메이션의 전체 길이, 시간 */
+    animation-iteration-count: infinite; /* 반복 횟수, 무한 반복인 경우 infinite */
+}
+@keyframes imge2 {
+    0%{
+        top: 10px;
+    }
+    50%{
+        top: -10px;
+    }
+    100%{
+        top: 10px;
+    }
+}
+
+#image03 {
+    position: fixed; /* 브라우저가 크기 변해도 변동x*/
+    left: 370px;
+    width: 12.5%;
+    height: 100%;
+    background-image: url("main1.png");
+    background-size: cover;
+    background-position-y: center;
+    animation-name: imge1; /* 키프레임 애니메이션 이름 */
+    animation-duration: 2s; /* 애니메이션의 전체 길이, 시간 */
+    animation-iteration-count: infinite; /* 반복 횟수, 무한 반복인 경우 infinite */
+}
+
+#image04 {
+    position: fixed; /* 브라우저가 크기 변해도 변동x*/
+    left: 570px;
+    width: 12.5%;
+    height: 100%;
+    background-image: url("main2.png");
+    background-size: cover;
+    background-position-y: center;
+    animation-name: imge2; /* 키프레임 애니메이션 이름 */
+    animation-duration: 2s; /* 애니메이션의 전체 길이, 시간 */
+    animation-iteration-count: infinite; /* 반복 횟수, 무한 반복인 경우 infinite */
+}
+
+#image05 {
+    position: fixed; /* 브라우저가 크기 변해도 변동x*/
+    left: 745px;
+    width: 12.5%;
+    height: 100%;
+    background-image: url("main1.png");
+    background-size: cover;
+    background-position-y: center;
+    animation-name: imge1; /* 키프레임 애니메이션 이름 */
+    animation-duration: 2s; /* 애니메이션의 전체 길이, 시간 */
+    animation-iteration-count: infinite; /* 반복 횟수, 무한 반복인 경우 infinite */
+}
+
+#image06 {
+    position: fixed; /* 브라우저가 크기 변해도 변동x*/
+    left: 965px;
+    width: 12.5%;
+    height: 100%;
+    background-image: url("main2.png");
+    background-size: cover;
+    background-position-y: center;
+    animation-name: imge2; /* 키프레임 애니메이션 이름 */
+    animation-duration: 2s; /* 애니메이션의 전체 길이, 시간 */
+    animation-iteration-count: infinite; /* 반복 횟수, 무한 반복인 경우 infinite */
+}
+
+#image07 {
+    position: fixed; /* 브라우저가 크기 변해도 변동x*/
+    left: 1127px;
+    width: 12.5%;
+    height: 100%;
+    background-image: url("main1.png");
+    background-size: cover;
+    background-position-y: center;
+    animation-name: imge1; /* 키프레임 애니메이션 이름 */
+    animation-duration: 2s; /* 애니메이션의 전체 길이, 시간 */
+    animation-iteration-count: infinite; /* 반복 횟수, 무한 반복인 경우 infinite */
+}
+
+#image08 {
+    position: fixed; /* 브라우저가 크기 변해도 변동x*/
+    left: 1330px;
+    width: 12.5%;
+    height: 100%;
+    background-image: url("main2.png");
+    background-size: cover;
+    background-position-y: center;
+    animation-name: imge2; /* 키프레임 애니메이션 이름 */
+    animation-duration: 2s; /* 애니메이션의 전체 길이, 시간 */
+    animation-iteration-count: infinite; /* 반복 횟수, 무한 반복인 경우 infinite */
+}
+#image01{width: 12.5em;}
+#image02{width: 12.5em;}
+#image03{width: 12.5em;}
+#image04{width: 12.5em;}
+#image05{width: 12.5em;}
+#image06{width: 12.5em;}
+#image07{width: 12.5em;}
+#image08{width: 12.5em;}
+
+@media (max-width: 840px) {
+    #background {
+        
+    }
