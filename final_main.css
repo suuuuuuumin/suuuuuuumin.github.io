@@ -193,7 +193,6 @@
       /* main 부분*/
       .shadow-drop-center {
         position: absolute;
-
         opacity: 0;
         transition: .5s ease;
         -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -239,6 +238,26 @@
   opacity: 1;
 }
 
+#imge2:hover.shadow-drop-center{
+  opacity: 1;
+}
+
+#imge3:hover.shadow-drop-center{
+  opacity: 1;
+}
+
+#imge4:hover.shadow-drop-center{
+  opacity: 1;
+}
+
+#imge2-1:hover.shadow-drop-center{
+  opacity: 1;
+}
+
+#imge2-2:hover.shadow-drop-center{
+  opacity: 1;
+}
+
 
 
     #titletext_box {
@@ -273,8 +292,11 @@
       }
 
       #imge1>img {width: 100%;
+        height: 100%;
         background-size: contain;
         background-position-y: center;}
+
+
 
       .textbox {
         font-family: 'SuncheonB';
@@ -304,21 +326,26 @@
         font-size: 25px;
         z-index: 1000;
         text-align: center;
-        background-image: url("busan_g.gif");
         background-size: contain;
         background-position-x: center;
       }
+
+      #imge2>img {width: 35%;
+        height: 100%;
+        background-size: contain;
+        background-position-y: center;}
+
       .textbox2 {
         font-family: 'SuncheonB';
         position: absolute;
-        top: 318vh;
+        top: 320vh;
         left: 50%;;
         width: 100%;
         height: 60px;
-        background-color: #dadd7c00;
+        background-color: #f7ff0800;
         transform: translate(-50%, 0);
         font-size: 25px;
-        z-index: 2000;
+        z-index: 12000;
         text-align: center;
         font-family: 'PyeongChangPeace-Light'
         }
@@ -335,10 +362,14 @@
         font-size: 25px;
         z-index: 1000;
         text-align: center;
-        background-image: url("car.jpg");
         background-size: cover;
         background-position-y: center;
       }
+      #imge3>img {width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position-y: center;}
+
 
       .textbox3 {
         font-family: 'SuncheonB';
@@ -367,10 +398,14 @@
         font-size: 25px;
         z-index: 1000;
         text-align: center;
-        background-image: url("character.jpg");
         background-size: cover;
         background-position-y: center;
       }
+      #imge4>img {width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position-y: center;}
+
 
       .textbox4 {
         font-family: 'SuncheonB';
@@ -447,10 +482,16 @@
         font-size: 25px;
         z-index: 1000;
         text-align: center;
-        background-image: url("poster.png");
         background-size: cover;
         background-position-y: 25%;
       }
+
+      #imge2-1>img {width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position-y: center;}
+
+
       .textbox2-1 {
         font-family: 'SuncheonB';
         position: absolute;
@@ -530,24 +571,23 @@
         left: 50%;
         top: 1510vh;
         width: 60%;
-        height: 15%;
+        height: 10%;
         background-color: #70acff00;
         transform: translate(-50%, 0);
         font-size: 25px;
         z-index: 1000;
         text-align: center;
         font-family: 'PyeongChangPeace-Light';
-        
-        
       }
 
+      
       @media screen and (max-width: 960px) {
         main {
-            height: 100vw;
+            height: 5vw;
         }
         #imge1 {
           width: 50%;
-          height: 18%;
+          height: 30%;
         }
         .textbox {
           top: 280vw;
